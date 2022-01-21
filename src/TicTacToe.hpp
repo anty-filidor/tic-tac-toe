@@ -18,8 +18,8 @@ string board[3][3] = {  // NOLINT
 int board_rows_num = 3;
 int board_cols_num = 3;
 
-string player_1_mark = "O";  // NOLINT
-string player_2_mark = "X";  // NOLINT
+string player_O_mark = "O";  // NOLINT
+string player_X_mark = "X";  // NOLINT
 
 void add_mark(string mark, int row_coord, int col_coord);
 
